@@ -98,7 +98,8 @@ claude-code-training/
 │   ├── task12.md  # 本家リポジトリの最新タスクをForkへ反映
 │   ├── task13.md  # コーポレートサイト改善モック
 │   ├── task14.md  # アクセシビリティとUI品質改善
-│   └── task15.md  # CLAUDE.mdとSkillへの知見反映
+│   ├── task15.md  # CLAUDE.mdとSkillへの知見反映
+│   └── task16.md  # PR化とセルフレビュー
 └── README.md                       # このファイル
 ```
 
