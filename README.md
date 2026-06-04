@@ -95,7 +95,7 @@ claude-code-training/
 │   ├── task9.md   # Vitestで単体テスト
 │   ├── task10.md  # CI/CD統合（テスト自動実行と手動トリガー）
 │   ├── task11.md  # Skills（発展）
-│   ├── task12.md  # 講師リポジトリの最新タスクをForkへ反映
+│   ├── task12.md  # 本家リポジトリの最新タスクをForkへ反映
 │   └── task13.md  # コーポレートサイト改善モック
 └── README.md                       # このファイル
 ```
