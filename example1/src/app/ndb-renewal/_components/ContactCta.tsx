@@ -8,9 +8,9 @@ export default function ContactCta() {
         <p className={styles.body}>
           サービスに関するご相談・お問い合わせはこちらからどうぞ。
         </p>
-        <a href="#" aria-disabled="true" className={styles.btn}>
+        <button type="button" className={styles.btn}>
           お問い合わせフォームへ
-        </a>
+        </button>
       </div>
     </section>
   );

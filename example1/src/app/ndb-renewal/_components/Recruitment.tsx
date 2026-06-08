@@ -10,9 +10,9 @@ export default function Recruitment() {
           開発・導入からオンサイト支援・コンサルテーションまで、
           幅広い現場でエンジニアが活躍しています。
         </p>
-        <a href="#" aria-disabled="true" className={styles.btn}>
+        <button type="button" className={styles.btn}>
           採用情報を見る
-        </a>
+        </button>
       </div>
     </section>
   );
