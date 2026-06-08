@@ -1,0 +1,64 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: var(--ndb-primary);
+  color: #fff;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav a {
+  color: var(--ndb-primary-light);
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+/* .nav a より特異性が高いため !important 不要 */
+.nav .ctaLink {
+  background: #fff;
+  color: var(--ndb-primary);
+  padding: 0.4rem 1.1rem;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.nav .ctaLink:hover {
+  background: var(--ndb-primary-hover);
+  color: var(--ndb-primary);
+}
+
+@media (max-width: 768px) {
+  .nav a:not(.ctaLink) {
+    display: none;
+  }
+
+  .nav {
+    gap: 0;
+  }
+}

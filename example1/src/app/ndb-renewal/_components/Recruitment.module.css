@@ -1,0 +1,48 @@
+.section {
+  padding: 5rem 1.5rem;
+  background: var(--ndb-primary);
+  color: #fff;
+  text-align: center;
+}
+
+.inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.message {
+  font-size: 1rem;
+  color: var(--ndb-primary-light);
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: var(--ndb-primary);
+  padding: 0.9rem 2.5rem;
+  border-radius: 4px;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: var(--ndb-primary-hover);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1.5rem;
+  }
+
+  .btn {
+    display: block;
+  }
+}

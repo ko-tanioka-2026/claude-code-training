@@ -1,0 +1,20 @@
+.card {
+  background: #fff;
+  border: 1px solid var(--ndb-border);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 48, 135, 0.06);
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ndb-primary);
+  margin-bottom: 0.75rem;
+}
+
+.desc {
+  font-size: 0.92rem;
+  color: #555;
+  line-height: 1.75;
+}

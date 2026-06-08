@@ -1,6 +1,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* NDB ブランドカラー */
+  --ndb-primary: #003087;
+  --ndb-primary-mid: #0057c2;
+  --ndb-primary-dark: #0052cc;
+  --ndb-primary-light: #c8dcff;
+  --ndb-primary-hover: #d0e4ff;
+  --ndb-bg-section: #f5f7fb;
+  --ndb-border: #dce4f0;
 }
 
 @media (prefers-color-scheme: dark) {
